@@ -1,0 +1,29 @@
+body {
+  color: #555;
+  padding: 32px;
+  font-size: 14px;
+  background-color: #ddd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.btn {
+  padding: 4px 12px;
+  border-radius: 5px;
+  height: 36px;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+  &-primary {
+    background-color: rgb(40, 95, 236);
+    color: white;
+  }
+}

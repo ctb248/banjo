@@ -1,0 +1,22 @@
+.priority-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.priority-badge {
+
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+  &.high {
+    background-color: rgb(197, 72, 72);
+  }
+  &.medium {
+    background-color: rgb(227, 123, 44);
+  }
+  &.low {
+    background-color: rgb(118, 174, 118);
+  }
+}
