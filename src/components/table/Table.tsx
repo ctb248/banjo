@@ -81,8 +81,6 @@ const Table = <T extends Record<string, any>>({
     [data, currentPage, pageSize]
   );
 
-  console.log(displayData, currentPage);
-
   return (
     <div className="table-wrapper">
       <table className="table">
